@@ -65,7 +65,10 @@ Each part of the application needs to be run in a separate terminal.
 3. Activate the virtual environment:
     ```bash
    virtualEnv\Scripts\activate
-4. Run the server:
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+5. Run the server:
     ```bash
     python main.py
 The server should now be running on a specific port (e.g., http://localhost:5000). Check the terminal output for the exact port.
@@ -75,13 +78,10 @@ The server should now be running on a specific port (e.g., http://localhost:5000
 1. **Navigate to the `client` folder**:
    ```bash
    cd client
-2. Create a virtual environment:
-   ```bash
-   python -m venv virtualEnv
-3. Install Node.js modules:
+2. Install Node.js modules:
     ```bash
    npm install
-4. Run the client:
+3. Run the client:
     ```bash
    npm run dev
 After running this command, the frontend will be accessible at a specific port (e.g., http://localhost:3000). The exact port should be displayed in the terminal.
