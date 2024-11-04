@@ -1,5 +1,4 @@
-
-# Project Title: Next Gen Traffic Prediction – A Multimodal Web Framework
+Next Gen Traffic Prediction – A Multimodal Web Framework
 
 ## Overview:
 
